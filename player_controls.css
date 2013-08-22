@@ -1,0 +1,40 @@
+body {
+	font-size: 62.5%;
+	padding: 1em;
+	background-color: #f2f3fe;
+}
+
+div, input[type="button"]{
+	text-align: center;
+	clear: both;
+}
+div, div.content {
+	margin: 0 auto;
+	width: 60em;
+}
+p, h1, h2, h3, ul, label, input, button {
+	text-align: left;
+	font-size: 1.6em;
+}
+label, input{
+	display: block;
+}
+section {
+	float: left;
+	display:block;
+}
+input[type="text"]{
+	width: 15em;
+	font-size: 1.4em;
+	padding: 1.3em;
+}
+#controls input[type="text"] {
+	width: 4em;
+	background-color: #343434;
+	color: #494949;
+}
+#controls .active input[type="text"] {
+	background-color: #ffffff;
+	color: #030303;
+}
+
