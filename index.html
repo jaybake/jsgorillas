@@ -2,14 +2,14 @@
 <html>
   <head>
     <title>HTML5 Gorillas</title>
-  <link rel="stylesheet" type="text/css" media="screen" href="gorilla.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="player_controls.css" />
   <script type="text/javascript" src="gorilla.js"></script>
-  <script src="jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
   <body>
   <div id="gorillaGame">
   <canvas id="myCanvas" width="900" height="400" style="border:1px solid #000000;">this is a canvas. Your browser might not be able
-to play this game</canvas> 
+to play this game</canvas>
     <div id="controls">
       <form name="player1">
       <section>
@@ -39,13 +39,13 @@ to play this game</canvas>
     <form name="setup">
       <section>
       <label for="player1">Player 1</label><input type="text" name="player1" ></input>
-        <label for="computer_player1">computer?</label><input name="computer_player1" type="checkbox" value="res"></input> 
+        <label for="computer_player1">computer?</label><input name="computer_player1" type="checkbox" value="res"></input>
       </section><section>
       <label for="player2">Player 2</label><input type="text" name="player1" ></input>
-        <label for="computer_player1">computer?</label><input name="computer_player2" type="checkbox" value="yes"></input> 
+        <label for="computer_player1">computer?</label><input name="computer_player2" type="checkbox" value="yes"></input>
       </section>
       <input type="button" value="Start Game" />
     </form>
   </div>
   </body>
-</html>  
+</html>
